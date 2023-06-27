@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "DIN Next LT Arabic";
+    src: url("./assets/fonts/DINNextLTArabic-Regular-3.ttf") format("truetype");
+    /* Add additional src lines for other font file formats if available */
+
+    /* Optional: Define font-weight and font-style if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "DIN Next LT Arabic", sans-serif;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 16px;
+    }
+}
